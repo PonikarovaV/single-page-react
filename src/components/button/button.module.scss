@@ -1,0 +1,24 @@
+.button {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(233, 201, 45, 1);
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #38300A;
+    transition: 0.3s ease-in opacity;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button_activ {
+    color: green;
+}

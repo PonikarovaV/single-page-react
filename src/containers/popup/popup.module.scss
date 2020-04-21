@@ -1,0 +1,78 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.form {
+    box-sizing: border-box;
+    padding: 30px 20px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.form__field {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    line-height: 1.2;
+    background-color: rgba(233, 201, 45, 0.3);
+}
+
+.form__legend {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.form__button {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background-color: #38300A;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+.form__button_activ {
+    opacity: 1;
+    transition: 0.2s ease-in opacity;
+}
+
+.form__button_activ:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

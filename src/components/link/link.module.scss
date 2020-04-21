@@ -1,0 +1,19 @@
+.navigation__item {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.navigation__link {
+    margin: 0;
+    text-decoration: none;
+    color: #E9C92D;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s ease-in opacity;
+}
+
+.navigation__link:hover {
+    opacity: 0.6;
+}

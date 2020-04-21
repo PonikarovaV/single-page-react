@@ -1,0 +1,61 @@
+@mixin title-text {
+    font: {
+        family: Arial, Helvetica, sans-serif;
+        size: 30px;
+        weight: bold;
+    };
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+@mixin content-text {
+    font: {
+        family: Arial, Helvetica, sans-serif;
+        size: 16px;
+        weight: normal;
+    };
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+@mixin button-text {
+    font: {
+        family: Arial, Helvetica, sans-serif;
+        size: 16px;
+        weight: bold;
+    };
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+@mixin button {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in opacity;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    &:active {
+        opacity: 1;
+    }
+}
+
+@mixin list {
+    list-style: none;
+    padding-left: 0;
+}
+
+@mixin link {
+    text-decoration: none;
+    transition: 0.3s ease-in opacity;
+    &:hover {
+        opacity: 0.6;
+    }
+    &:active {
+        opacity: 1;
+    }
+}
