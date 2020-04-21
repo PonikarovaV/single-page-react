@@ -8,6 +8,10 @@
   },
   "author": "Vanda Ponikarova",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PonikarovaV/single-page-react.git"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
